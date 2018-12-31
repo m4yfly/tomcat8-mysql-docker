@@ -1,7 +1,7 @@
 branches:
   only:
     - master
-    - /^v[\d.]+\d$/
+    - /^v[0-9.]+$/
 
 sudo: required
 
@@ -14,7 +14,6 @@ env:
     - VERSION=${TRAVIS_BRANCH}
 
 script:
-  - echo ${NAME}:${VERSION}
   - docker build -t ${NAME}:${VERSION} image
   - docker build -t ${NAME}:latest --rm image
 
