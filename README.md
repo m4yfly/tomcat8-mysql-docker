@@ -1,5 +1,5 @@
 # A tomcat+mysql image
-[![](https://images.microbadger.com/badges/image/zer0i3/tomcat8-mysql.svg)](https://microbadger.com/images/zer0i3/tomcat8-mysql)[![](https://images.microbadger.com/badges/version/zer0i3/tomcat8-mysql.svg)](https://microbadger.com/images/zer0i3/tomcat8-mysql)[![Build Status](https://travis-ci.org/zer0i3/tomcat8-mysql-docker.svg?branch=master)](https://travis-ci.org/zer0i3/tomcat8-mysql-docker)
+[![](https://images.microbadger.com/badges/image/zer0i3/tomcat8-mysql.svg)](https://microbadger.com/images/zer0i3/tomcat8-mysql) [![](https://images.microbadger.com/badges/version/zer0i3/tomcat8-mysql.svg)](https://microbadger.com/images/zer0i3/tomcat8-mysql) [![Build Status](https://travis-ci.org/zer0i3/tomcat8-mysql-docker.svg?branch=master)](https://travis-ci.org/zer0i3/tomcat8-mysql-docker)
 
 A custom image for deploying Java web project based on [baseimage]( https://github.com/phusion/baseimage-docker), plus:
 
@@ -37,3 +37,5 @@ Deploy Java web project:
 > Just move your project to `/opt/tomcat/webapps/`
 >
 > A example here, [imxss](https://github.com/zer0i3/imxss-docker) based `zer0i3/tomcat8-mysql`
+
+Dockerfile in github: [tomcat8-mysql-docker](https://github.com/zer0i3/tomcat8-mysql-docker)
