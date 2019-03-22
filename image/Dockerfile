@@ -2,7 +2,7 @@ FROM phusion/baseimage:0.10.2
 
 MAINTAINER zer0i3 <zer0i3@aliyun.com>
 
-ENV TOMCAT_VERSION 8.5.37
+ENV TOMCAT_VERSION 8.5.39
 
 #Set locales
 RUN sed -i "s/http:\/\/archive.ubuntu.com/http:\/\/mirrors.tuna.tsinghua.edu.cn/g" /etc/apt/sources.list && \
